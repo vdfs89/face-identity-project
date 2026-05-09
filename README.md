@@ -12,7 +12,7 @@ Neste benchmark, demonstramos a transição de um retrato corporativo para um ce
 
 | 🖼️ Referência Original | 🚀 Resultado Ancorado |
 | :---: | :---: |
-| <img src="exemplos/caso-estudo-executiva/referencia.jpg" width="400" alt="Referência"> | <img src="exemplos/caso-estudo-executiva/resultado_ancorado.jpg" width="400" alt="Resultado"> |
+| <img src="exemplos/caso-estudo-executiva/referencia.jpg" width="400" height="500" style="object-fit: cover;"> | <img src="exemplos/caso-estudo-executiva/resultado_ancorado.jpg" width="400" height="500" style="object-fit: cover;"> |
 | **Identidade Base** | **95% Fidelity @ 25 Years** |
 
 </div>
