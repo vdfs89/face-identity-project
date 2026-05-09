@@ -7,6 +7,18 @@
 prompts/**/*
 !prompts/README.md
 
+# 📦 ML Models & Weights (Heavy Assets)
+/models/
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+
+# 🖼️ Geração e Outputs
+/outputs/
+outputs/
+*.log
+
 # Environment and System
 *.env
 .DS_Store
