@@ -19,6 +19,6 @@ A geração utilizou uma estrutura de tokens de fotografia técnica e pesos nega
  
 | 🖼️ Referência Original | 🚀 Resultado Ancorado |
 | :---: | :---: |
-| <img src="referencia.jpg" width="400" height="500" style="object-fit: cover;"> | <img src="resultado_ancorado.jpg" width="400" height="500" style="object-fit: cover;"> |
+| <img src="referencia.jpg" height="400"> | <img src="resultado_ancorado.jpg" height="400"> |
 
 </div>
