@@ -2,24 +2,23 @@
 
 ## Phase 1: Foundation & Documentation
 - [x] Clone and initialize repository
-- [ ] Detailed technical documentation for each Pillar:
-    - [ ] Anchoring Prompts
-    - [ ] Reference Calibration
-    - [ ] Inpainting Techniques
-- [ ] Create directory structure for templates
+- [x] Detailed technical documentation (`technical-specs.md`)
+- [x] Create directory structure for templates and examples
+- [x] Implement standardized visual comparison layout (HTML)
 
 ## Phase 2: Prompt Engineering
-- [ ] Develop "Anchor Prompt" templates for Flux.1
-- [ ] Develop "Anchor Prompt" templates for Freepik Pikaso
-- [ ] Documentation on Weighting and Negative Prompting
+- [x] Develop "Anchor Prompt" V5 (Hyper-Perfection) for Flux.1
+- [x] Documentation on Weighting and Negative Prompting (Private Vault)
+- [x] Implement IP Protection layer (`.gitignore` prompts)
 
 ## Phase 3: Workflow Automation
-- [ ] Create visual/markdown workflows for Freepik Pikaso
-- [ ] Integration guides for LoRAs or ControlNets if applicable
+- [x] Create visual/markdown workflows for Freepik Pikaso
+- [x] Create `unificar_imagens.py` for standardized asset generation
 
 ## Phase 4: Showcasing (Exemplos)
-- [ ] Generate/Gather comparison images (Before/After)
-- [ ] Document the "Identity Score" or metrics used for evaluation
+- [x] Generate/Gather comparison images (Caso Estudo: Executiva)
+- [x] Implement standardized height comparison in README
+- [ ] Document the "Identity Score" or metrics used for evaluation (In Progress)
 
 ## Phase 5: (Optional) Tooling
 - [ ] Simple CLI tool to generate prompts based on templates
