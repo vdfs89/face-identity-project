@@ -2,9 +2,9 @@
 
 Esta pasta contém exemplos reais de aplicação da metodologia de ancoragem de identidade.
 
-## Caso 1: Estudo Executiva
-- **Objetivo**: Manter traços faciais em diferentes iluminações de escritório.
-- **Referência**: ![Executiva](caso-estudo-executiva/referencia.jpg)
+## Caso 1: [Estudo Executiva](./caso-estudo-executiva/README.md)
+- **Objetivo**: Demonstrar manutenção de consistência em cenários 100% distintos.
+- **Destaque**: Parâmetro de fidelidade 0.85 (geometria óssea).
 
 ## Caso 2: Expressividade e Gestos
 - **Arquivo**: ![Garota Feliz](surprised-happy-girl-pointing-left-recommend-product-advertisement-make-okay-gesture.jpg)
