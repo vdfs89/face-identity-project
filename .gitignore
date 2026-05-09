@@ -1,9 +1,12 @@
-# Project specific ignores
-prompts/private_*.md
-prompts/vault/
+# IP Protection: Ignore ANY file or folder with "prompt"
+**/*prompt*
+**/*Prompt*
+**/*PROMPT*
+
+# Ensure the prompts folder itself is ignored except for the README
+prompts/**/*
+!prompts/README.md
+
+# Environment and System
 *.env
 .DS_Store
-
-# Documentation on prompts is allowed, but actual prompts are hidden
-prompts/*.md
-!prompts/README.md
