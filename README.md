@@ -23,7 +23,7 @@ Como Engenheiro de Machine Learning, desenvolvi este framework para garantir que
 ## 📁 Estrutura do Projeto
 - [`/prompts`](prompts/README.md): Instruções para gestão de prompts privados (IP Protegido).
 - [`/workflows`](workflows/freepik_pikaso.md): Guia de configuração técnica.
-- [`/exemplos`](exemplos/README.md): Showcase de resultados e casos de estudo.
+- [`/exemplos`](exemplos/caso-estudo-executiva/README.md): Showcase de resultados e casos de estudo.
 
 ---
 **Desenvolvido por:** [Vitor Silva](https://github.com/vdfs89) | ML Engineer & AI Researcher.
