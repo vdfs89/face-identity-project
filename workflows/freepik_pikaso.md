@@ -4,7 +4,7 @@ Guide to using Freepik Pikaso's tools to maintain facial identity.
 
 ## Step 1: Base Image Generation
 - Use the **Flux.1** engine for high anatomical fidelity.
-- Input your **Anchor Prompt** (see `/prompts/flux_anchor.md`).
+- Input your **Local Anchor Prompt** (stored privately in your `/prompts` folder).
 - Generate 4 variations and select the one that best matches the target identity.
 
 ## Step 2: Reference Image Upload (Face Swap / Structure)

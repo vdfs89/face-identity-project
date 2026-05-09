@@ -1,0 +1,9 @@
+# Project specific ignores
+prompts/private_*.md
+prompts/vault/
+*.env
+.DS_Store
+
+# Documentation on prompts is allowed, but actual prompts are hidden
+prompts/*.md
+!prompts/README.md
