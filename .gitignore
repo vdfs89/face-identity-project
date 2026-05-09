@@ -14,6 +14,12 @@ prompts/**/*
 *.pt
 *.ckpt
 
+# 🐳 Docker & Local Infra (Teste Local)
+Dockerfile
+docker-compose.yml
+requirements.txt
+inference_flux_v5.py
+
 # 🖼️ Geração e Outputs
 /outputs/
 outputs/
