@@ -19,6 +19,8 @@ Dockerfile
 docker-compose.yml
 requirements.txt
 inference_flux_v5.py
+setup_models.sh
+setup_models.ps1
 
 # 🖼️ Geração e Outputs
 /outputs/
