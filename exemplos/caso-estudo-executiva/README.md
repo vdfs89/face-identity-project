@@ -19,5 +19,3 @@ A geração utilizou uma estrutura de tokens de fotografia técnica e pesos nega
 | Referência Original | Resultado Ancorado |
 | :---: | :---: |
 | ![Original](referencia.jpg) | ![Resultado](resultado_ancorado.jpg) |
-
-*(Nota: O arquivo `resultado_ancorado.jpg` deve ser adicionado a esta pasta para completar o comparativo.)*
