@@ -1,29 +1,39 @@
-# Ancoragem de Identidade e Consistência Facial em Modelos Generativos 🧬
+# Identity Anchoring & Facial Consistency 🧬
 
-Este projeto apresenta uma metodologia técnica avançada para mitigar a **Deriva de Identidade (Identity Drift)** em modelos de IA generativa (Flux.1 + Freepik Pikaso).
+Metodologia técnica avançada para preservação de identidade em modelos generativos de alta fidelidade (**Flux.1** + **Freepik Pikaso**).
 
-## 📸 Caso de Estudo: Consistência em Ambiente Laboratorial
-O objetivo deste exemplo foi mover a modelo de um retrato de estúdio para um ambiente de laboratório científico de alta tecnologia, mantendo a identidade exata de 25 anos e eliminando o envelhecimento artificial causado pelo cenário clínico.
+---
 
-| Referência Original (Input) | Resultado Ancorado (Output) |
-|:---:|:---:|
-| ![Referência](exemplos/caso-estudo-executiva/referencia.jpg) | ![Resultado](exemplos/caso-estudo-executiva/resultado_ancorado.jpg) |
-| **Identidade Base** | **95% de Fidelidade Preservada** |
+## 📸 Caso de Estudo: Executiva em Ambiente Clínico
 
-> **Highlight:** Note a manutenção da distância interocular, estrutura do jawline e o rejuvenescimento controlado para 25 anos, corrigindo a interpretação equivocada do modelo sobre texturas clínicas.
+Neste benchmark, demonstramos a transição de um retrato corporativo para um cenário de laboratório científico, mantendo a geometria facial intacta e corrigindo distorções de idade.
+
+<div align="center">
+
+| 🖼️ Referência Original | 🚀 Resultado Ancorado |
+| :---: | :---: |
+| <img src="exemplos/caso-estudo-executiva/referencia.jpg" width="400" alt="Referência"> | <img src="exemplos/caso-estudo-executiva/resultado_ancorado.jpg" width="400" alt="Resultado"> |
+| **Identidade Base** | **95% Fidelity @ 25 Years** |
+
+</div>
+
+> [!TIP]
+> **Key Optimization:** A ancoragem de 0.9 permitiu a mudança radical de pose e cenário (segurando a pasta) sem sacrificar os traços anatômicos da modelo original.
+
+---
 
 ## 🚀 Visão Geral
-Como Engenheiro de Machine Learning, desenvolvi este framework para garantir que a IA mantenha a fidelidade aos traços anatômicos originais, permitindo alterações radicais de cenário e iluminação sem a perda da identidade visual.
+Framework desenvolvido para garantir que a IA mantenha a fidelidade aos traços anatômicos originais, permitindo alterações radicais de cenário, pose e iluminação sem a perda da identidade visual (*Identity Drift*).
 
-## 🛠️ Pilares Técnicos
-1. **Engenharia de Ancoragem**: Tokens técnicos para "travar" a geometria óssea.
-2. **Calibração de Pesos**: Ajuste fino entre *Face Reference* (0.9) e *Structure* (0.4).
-3. **Mitigação de Age-Drift**: Protocolo de denoise cirúrgico para evitar envelhecimento por artefatos de cenário.
+## 🛠️ Pilares do Framework
+*   **Ancoragem Geométrica**: Utilização de tokens de estrutura óssea para "travar" a face.
+*   **Calibração Dinâmica**: Ajuste de pesos entre *Face Reference* e *Structure*.
+*   **Rejuvenescimento Técnico**: Protocolo para evitar envelhecimento por ruído de cenário.
 
 ## 📁 Estrutura do Projeto
-- [`/prompts`](prompts/README.md): Instruções para gestão de prompts privados (IP Protegido).
-- [`/workflows`](workflows/freepik_pikaso.md): Guia de configuração técnica.
-- [`/exemplos`](exemplos/caso-estudo-executiva/README.md): Showcase de resultados e casos de estudo.
+*   📂 [**Prompts**](prompts/README.md) - Gestão de IP e instruções de segurança.
+*   📂 [**Workflows**](workflows/freepik_pikaso.md) - Parâmetros técnicos de calibração.
+*   📂 [**Exemplos**](exemplos/caso-estudo-executiva/README.md) - Detalhamento do caso de estudo.
 
 ---
 **Desenvolvido por:** [Vitor Silva](https://github.com/vdfs89) | ML Engineer & AI Researcher.

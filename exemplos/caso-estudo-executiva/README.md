@@ -15,7 +15,10 @@ A geração utilizou uma estrutura de tokens de fotografia técnica e pesos nega
 > [!IMPORTANT]
 > O prompt exato e a lógica de tokens são parte da propriedade intelectual entregue na mentoria técnica e estão protegidos localmente.
 
-## 📊 Comparativo
-| Referência Original | Resultado Ancorado |
+<div align="center">
+ 
+| 🖼️ Referência Original | 🚀 Resultado Ancorado |
 | :---: | :---: |
-| ![Original](referencia.jpg) | ![Resultado](resultado_ancorado.jpg) |
+| <img src="referencia.jpg" width="400" alt="Referência"> | <img src="resultado_ancorado.jpg" width="400" alt="Resultado"> |
+
+</div>
